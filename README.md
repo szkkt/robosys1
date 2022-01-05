@@ -16,8 +16,9 @@ $sudo insmod myled.ko
 
 $sudo chmod 666 /dev/myled0
 
-$echo
+$echo 0 > /dev/myled0/
 
+$echo 1 > /dev/myled0
 
 
 # 動画URL
