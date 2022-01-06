@@ -24,3 +24,4 @@ $echo 1 > /dev/myled0
 
 
 # 動画URL
+https://youtu.be/PCoHDXEsVpM
