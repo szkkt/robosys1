@@ -19,7 +19,12 @@ LED ×4　
 
 ブレッドボード ×1
 
-![回路](https://github.com/szkkt/robosys1/blob/main/1.jpg)
+![回路](https://github.com/szkkt/robosys1/blob/main/5.jpg)
+
+LEDのアノード側を画像正面左から順番にGPIO25,18,22,23,24のピンに、カソード側は抵抗を挟みGNDのピンにそれぞれジャンパー線を経由して接続している。
+
+
+
 # インストール
     $make
     $sudo insmod myled.ko
