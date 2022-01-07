@@ -27,13 +27,12 @@ LED ×4　
 
 
 # アンインストール
-$sudo rmmodo myled
+'$sudo rmmodo myled'
 
 
 # 操作方法
-$echo 0 > /dev/myled0
-
-$echo 1 > /dev/myled0
+    $echo 0 > /dev/myled0
+    $echo 1 > /dev/myled0
 
 入力が0の時、上記の挙動が行われる。入力が1の時、すべてのLEDが消灯される。
 
