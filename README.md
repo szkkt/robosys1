@@ -28,18 +28,18 @@ LEDのアノード側を画像正面左から順番にGPIO25,18,22,23,24のピ�
 
 
 # インストール
-    $make
-    $sudo insmod myled.ko
-    $sudo chmod 666 /dev/myled0
+    make
+    sudo insmod myled.ko
+    sudo chmod 666 /dev/myled0
 
 
 # アンインストール
-    $sudo rmmodo myled
+    sudo rmmodo myled
 
 
 # 操作方法
-    $echo 0 > /dev/myled0
-    $echo 1 > /dev/myled0
+    echo 0 > /dev/myled0
+    echo 1 > /dev/myled0
 
 入力が0の時、上記の挙動が行われる。入力が1の時、すべてのLEDが消灯される。
 
