@@ -11,7 +11,7 @@
 # 環境
 Raspberry Pi 4 Model B
 
-Ubuntu 20.04
+Ubuntu 20.04 LTS
 
 抵抗(150Ω) ×5
 
