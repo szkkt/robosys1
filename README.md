@@ -9,20 +9,24 @@
 一定の間隔で数が増えていく。
 
 
-# 操作手順
-入力が0の時、上記の挙動が行われる。入力が1の時、すべてのLEDが消灯される。
-
+# インストール
 $make
 
 $sudo insmod myled.ko
 
 $sudo chmod 666 /dev/myled0
 
+
+# アンインストール
+$sudo rmmodo myled
+
+
+# 操作手順
 $echo 0 > /dev/myled0
 
 $echo 1 > /dev/myled0
-$ vi myled.c
 
+入力が0の時、上記の挙動が行われる。入力が1の時、すべてのLEDが消灯される。
 
 
 # 動画URL
