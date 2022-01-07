@@ -21,7 +21,7 @@ $sudo chmod 666 /dev/myled0
 $sudo rmmodo myled
 
 
-# 操作手順
+# 操作方法
 $echo 0 > /dev/myled0
 
 $echo 1 > /dev/myled0
