@@ -27,15 +27,7 @@ $echo 0 > /dev/myled0
 $echo 1 > /dev/myled0
 
 入力が0の時、上記の挙動が行われる。入力が1の時、すべてのLEDが消灯される。
-git clone git@github.com:hellocit/myled.git
 
-cd myled
-
-make
-
-sudo insmod myled.ko
-
-sudo chmod 666 /dev/myled0
 
 # 動画URL
 https://youtu.be/PCoHDXEsVpM
