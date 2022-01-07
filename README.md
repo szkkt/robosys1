@@ -27,7 +27,7 @@ LED ×4　
 
 
 # アンインストール
-'$sudo rmmodo myled'
+    $sudo rmmodo myled
 
 
 # 操作方法
