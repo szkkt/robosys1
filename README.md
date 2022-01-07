@@ -11,7 +11,7 @@
 # 環境
 Raspberry Pi 4 Model B
 
-抵抗 ×4
+抵抗(150Ω) ×4
 
 LED ×4　
 
